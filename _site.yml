@@ -1,0 +1,18 @@
+output_dir: "."
+markdown: CommonMark
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Luria"
+      href: luria.html
+
+output:
+  html_document:
+    lib_dir: site_libs
+    highlight: textmate
+    theme: darkly
+    css: styles.css
+
+    
+    
